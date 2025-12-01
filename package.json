@@ -9,6 +9,13 @@
     "day03": "tsx day03/day03.ts",
     "day04": "tsx day04/day04.ts",
     "day05": "tsx day05/day05.ts",
+    "day06": "tsx day06/day06.ts",
+    "day07": "tsx day07/day07.ts",
+    "day08": "tsx day08/day08.ts",
+    "day09": "tsx day09/day09.ts",
+    "day10": "tsx day10/day10.ts",
+    "day11": "tsx day11/day11.ts",
+    "day12": "tsx day12/day12.ts",
     "test": "jest",
     "test:watch": "jest --watch",
     "type-check": "tsc --noEmit"
