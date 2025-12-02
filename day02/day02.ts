@@ -17,23 +17,23 @@ function isInvalid(id: number): boolean {
 function isInvalidPart2(id: number): boolean {
   const idStr = id.toString()
   const len = idStr.length
-  
+
   // Try all possible pattern lengths (from 1 to len/2)
   // The pattern must divide evenly into the total length
   for (let patternLen = 1; patternLen <= len / 2; patternLen++) {
     if (len % patternLen !== 0) {
       continue
     }
-    
+
     const pattern = idStr.slice(0, patternLen)
     const repetitions = len / patternLen
-    
+
     // Check if repeating this pattern creates the whole ID
     if (pattern.repeat(repetitions) === idStr) {
       return true
     }
   }
-  
+
   return false
 }
 
